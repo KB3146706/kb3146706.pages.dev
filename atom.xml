@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://kb3146706.pages.dev</id>
+    <title>KB3146706&apos;s Blog</title>
+    <updated>2023-08-25T14:21:52.001Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://kb3146706.pages.dev"/>
+    <link rel="self" href="https://kb3146706.pages.dev/atom.xml"/>
+    <logo>https://kb3146706.pages.dev/images/avatar.png</logo>
+    <icon>https://kb3146706.pages.dev/favicon.ico</icon>
+    <rights>All rights reserved 2023, KB3146706&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[【Try Anytime】微课设计与开发作业]]></title>
+        <id>https://kb3146706.pages.dev/post/try-anytime-wei-ke-she-ji-yu-kai-fa-zuo-ye/</id>
+        <link href="https://kb3146706.pages.dev/post/try-anytime-wei-ke-she-ji-yu-kai-fa-zuo-ye/">
+        </link>
+        <updated>2023-07-31T14:43:00.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="前言">前言</h2>
+<p>极不情愿地当了组长。组员都是熟人。</p>
+<p>难得是一次前期工作推进阻力较小的一个项目。</p>
+<p>相对顺利地分了工，文稿收集完毕，逐字稿大概成型，可以开始思考可视化部分了。</p>
+<hr>
+<p>这次想试试衬线字体，所以 PPT 字体以（之前几乎不用的）思源宋体系列为主，（之前哪都爱用的）HarmonyOS Sans 系列为辅。</p>
+<p>片头有特殊要求，所以与正片完全不是一个画风。</p>
+<p>原本想用的是黑底（R25，G25，B25）白字，但后面录制人像视频时发现抠像效果不好，所以换为白底（R229，G229，B229）黑字。两者配上蓝绿强调色（R68，G114，B196 与 R112，G173，B71）我觉得都挺和谐，配合视频风格也都算搭。</p>
+<figure data-type="image" tabindex="1"><img src="https://kb3146706.pages.dev/post-images/1692972964511.png" alt="" loading="lazy"></figure>
+<h2 id="片头">片头</h2>
+<p>内容要求如下：</p>
+<blockquote>
+<p>蓝底白字、楷体，显示教材版本、学段学科、年级学期、微课名称、教师姓名 和所在单位等信息。</p>
+</blockquote>
+<p>明显的，排版是个考验。（虽然事后看别组作品发现没一个完全按照要求的）</p>
+<p>背景颜色是 R14，G57，B129，忘了怎么来的了。</p>
+<p>文本颜色均为 R255，G255，B255。</p>
+<p>院徽的水平及垂直位置均为从左上角 1 厘米。</p>
+<figure data-type="image" tabindex="2"><img src="https://kb3146706.pages.dev/post-images/1692972969520.png" alt="" loading="lazy"></figure>
+<p>微课名称文本框水平居中，文本居中对齐，汉字格式是字体楷体、字号 58、加粗，英文与数字格式是字体 HarmonyOS Sans Condensed（那么长，哪可能真的用楷体）、字号 58、考虑实际显示字重故不加粗，空格格式是字体楷体、字号 20（不然间距过大）、加粗。</p>
+<p>信息文本框文本居中对齐，文本格式是字体楷体、字号 25。通过添加全角空格来对齐冒号。视文本视觉重心调整文本框位置。</p>
+<figure data-type="image" tabindex="3"><img src="https://kb3146706.pages.dev/post-images/1692972981401.png" alt="" loading="lazy"></figure>
+<p>微课名称文本框的动画为旁门左道 PPT 动画模板库里的“位移淡入（自顶部）”，需手动缩短直线路径动画的路径长度，淡化动画持续时间 0.5 秒，直线动画持续时间 0.75 秒。</p>
+<p>信息文本框的动画为“淡化”，持续时间 0.75 秒。</p>
+<p>无切换效果。</p>
+<h2 id="正片">正片</h2>
+<blockquote>
+<p>继火遍全网的数字人之后，以文生图又成了新的热议科技话题。</p>
+</blockquote>
+<p>分别用“数字人”与“以文生图”作为关键词在百度上搜索，精选后截图放入 PPT。注意“数字人”的截图需被“以文生图”的截图覆盖，下部分空出字幕的位置。截图不要规矩摆放。</p>
+<figure data-type="image" tabindex="4"><img src="https://kb3146706.pages.dev/post-images/1692972990997.png" alt="" loading="lazy"></figure>
+<p>“数字人”组图片动画为旁门左道 PPT 动画模板库里的“放大弹动”，持续时间 0.5 秒，从延迟 0 秒起依次增加 0.2 秒延迟。</p>
+<p>“以文生图”组图片动画为旁门左道 PPT 动画模板库里的“放大进入”，持续时间 0.25 秒，从延迟 0 秒起依次增加 0.1 秒延迟。</p>
+<figure data-type="image" tabindex="5"><img src="https://kb3146706.pages.dev/post-images/1692972995494.png" alt="" loading="lazy"></figure>
+<p>无切换效果。</p>
+<blockquote>
+<p>那你知道什么是以文生图吗？以文生图就是只要输入一段文字描述</p>
+</blockquote>
+<p>“以文生图”文本框水平居中，垂直底边贴中线，文本居中对齐，文本格式是思源宋体、字号 150、加粗。</p>
+<p>“文字”图形，先新建文本框并输入文字，文本居中对齐，文本格式是字体 HarmonyOS Sans，字号 65，加粗。再将其转换为矢量文本图形：随便新建一个形状，依次选则文本框与形状，导航至工具栏“形状格式”选项卡 - 插入选项 - 合并形状，选择“剪除”。然后根据转换后的矢量文本新建蓝强调色填充的无边框矩形，将矢量文本与矩形居中对齐（即水平居中与垂直居中），设置为组合，凭视觉放置合适的位置。</p>
+<figure data-type="image" tabindex="6"><img src="https://kb3146706.pages.dev/post-images/1692972999658.png" alt="" loading="lazy"></figure>
+<p>“以文生图”的动画为旁门左道 PPT 动画模板库里的“缩小进入”。</p>
+<p>“文字”组的动画为旁门左道 PPT 动画模板库里的“闪烁出现”。</p>
+<p>切换效果为平滑，持续时间 0.75 秒。</p>
+<blockquote>
+<p>AI 就可以把对应的画面呈现出来。</p>
+</blockquote>
+<p>如法炮制另一个“图像”组，矩形填充色为绿强调色。</p>
+<p>修改“以文生图”的文本填充选项为线性渐变填充，首尾各置一个渐变光圈，颜色分别为蓝强调色与绿强调色（意指联系）。</p>
+<p>垂直贴着“以文生图”文本框新建“用文字描述生成图片”文本框，文本居中对齐，文本格式是字体思源宋体、字号 50。</p>
+<figure data-type="image" tabindex="7"><img src="https://kb3146706.pages.dev/post-images/1692973006490.png" alt="" loading="lazy"></figure>
+<p>切换效果为擦除，持续时间 0.75 秒，效果选项自左侧。</p>
+<blockquote>
+<p>它能根据需求生成多种画风的作品，例如写实、意象等，甚至二次元也不在话下。它的原理是什么呢？</p>
+</blockquote>
+<p>将“以文生图”上移至合适的位置。</p>
+<p>从 https://stability.ai/ 获取三张示意图，因为其都自带圆角，所以无需裁切。凭视觉确定图片尺寸与位置，注意下部分空出字幕的位置。图片间距可通过排列 - 对齐 - 横向分布确定。</p>
+<p>示意图组的动画为旁门左道 PPT 动画模板库里的“放大进入”，持续时间 0.6 秒，从延迟 0 秒起依次增加 0.3 秒延迟。</p>
+<figure data-type="image" tabindex="8"><img src="https://kb3146706.pages.dev/post-images/1692973010887.png" alt="" loading="lazy"></figure>
+<p>切换效果为平滑，持续时间 0.75 秒。</p>
+<blockquote>
+<p>文生图的文，指的是提示词，prompt</p>
+</blockquote>
+<p>逐字稿这里有失误，最前面少一个“以”字。</p>
+<p>单独将“以文生图”的文改回黑色。</p>
+<p>垂直贴着“以文生图”文本框新建相应的居中对齐文本框，输入对应文字，文本格式是字体思源宋体、字号 50。</p>
+<p>上面的文本框的水平位置凭视觉确定（与“文”字水平居中），下面的文本框的水平位置凭与上面的文本框水平居中确认。</p>
+<p>两文本框的动画均为旁门左道 PPT 动画模板库里的“位移淡入（自顶部）”，需手动缩短直线路径动画的路径长度，淡化动画持续时间 0.3 秒，直线动画持续时间 0.5 秒，下面的文本框的动画均延迟 0.2 秒。</p>
+<figure data-type="image" tabindex="9"><img src="https://kb3146706.pages.dev/post-images/1692973016214.png" alt="" loading="lazy"></figure>
+<p>切换效果为平滑，持续时间 0.75 秒。</p>
+<blockquote>
+<p>那么什么是提示词呢？广义的解释，提示词就是用户输入的文本信息，目的是让 AI 知道我们的需求，以此来生成我们想要的图像。直白一点，它是用来告诉 AI “要画什么”的内容。提示词越多，AI 就越有概率生成想要的图片。</p>
+</blockquote>
+<p>复制上一页幻灯片，删去多余元素，将“提示词”文本框的文本格式改为字体思源宋体、字号 150、加粗。</p>
+<p>上下边缘贴合、水平居中地创建两个小文本框，输入相应文字（无需将逐字稿里的每一句说明都可视化在屏幕上），文本格式是字体思源宋体、字号 50。</p>
+<p>两个小文本框的动画均为经修改的“位移淡入（自顶部）”。</p>
+<figure data-type="image" tabindex="10"><img src="https://kb3146706.pages.dev/post-images/1692973023524.png" alt="" loading="lazy"></figure>
+<p>切换效果为平滑，持续时间 0.75 秒。</p>
+<blockquote>
+<p>所以，要想让 AI 按照我们的需求去产图，提示词是不是得谨慎斟酌，反复打磨？<br>
+诚然，这样的确可以提高结果的精确性，但写提示词的过程其实是非常自由的。无论你写什么，AI 都可以给你画。</p>
+</blockquote>
+<p>思考内容，不方便以文本形式可视化，随即去 https://github.com/microsoft/fluentui-emoji 下载“想一想”表情图形（thinking_face_color.svg）。</p>
+<p>位置居中，宽高尺寸均为 10 厘米。</p>
+<p>动画为旁门左道 PPT 动画模板库里的“放大进入”，修改持续时间为 0.6 秒。</p>
+<figure data-type="image" tabindex="11"><img src="https://kb3146706.pages.dev/post-images/1692973028331.png" alt="" loading="lazy"></figure>
+<p>切换效果为平滑，持续时间 0.75 秒。</p>
+<blockquote>
+<p>在 Stable Diffusion Webui 中，输入提示词的区域是左上方的这两个文本框。上方是正向提示词，就是希望画面所具备的特性；下面是反向提示词，也就是不希望画面所具备的特性。</p>
+</blockquote>
+<p>水平居中插入软件实际运行截图，注意下部分空出字幕的位置。</p>
+<p>动画为旁门左道 PPT 动画模板库里的“闪烁出现”。</p>
+<figure data-type="image" tabindex="12"><img src="https://kb3146706.pages.dev/post-images/1692973033046.png" alt="" loading="lazy"></figure>
+<p>切换效果为平滑，持续时间 0.75 秒。</p>
+<blockquote>
+<p>虽然自由，但提示词有一些基本的语法规则：<br>
+第一，提示词仅可用英文输入。第二，提示词以词组为单位。比如要让 AI 画一个又长又宽的面和一个又大又圆的碗，</p>
+</blockquote>
+<p>新建文本框，输入规则文字，居左对齐，位置凭视觉确定。小标号的文本格式是字体 HarmonyOS Sans，字号 55，倾斜；空格格式是字体 HarmonyOS Sans，字号 50，倾斜；内容的文本格式是字体思源宋体，字号 50。</p>
+<p>两行的垂直距离为 1.35 厘米。</p>
+<p>举例文本的文本格式是字体思源宋体，字号 50，加粗。将其矢量化后与衬底的强调色圆角矩形（尺寸凭视觉确定）居中对齐并组合。</p>
+<p>两规则文本框的动画为旁门左道 PPT 动画模板库里的“位移淡入（自底部）”，修改”淡化“动画持续时间为 0.25 秒，修改”直线“路径动画长度，修改”直线“路径动画持续时间为 0.5 秒。</p>
+<p>两举例的动画为旁门左道 PPT 动画模板库里的“放大进入”，修改持续时间为 0.25 秒。（不懂当时为什么不用“闪烁出现”）</p>
+<figure data-type="image" tabindex="13"><img src="https://kb3146706.pages.dev/post-images/1692973038297.png" alt="" loading="lazy"></figure>
+<p>切换效果为平滑，持续时间 0.75 秒。</p>
+<blockquote>
+<p>那就需要把它分解成诸如面、长、宽，碗、大、圆这样的词，AI 才能听懂。</p>
+</blockquote>
+<p>复制上一页，删除所有动画，将举例内的文本改为矢量化的单字，调整圆角矩形宽度为与高度一致。</p>
+<p>所有单字的间距相等，左右边距与拆之前的相同。</p>
+<figure data-type="image" tabindex="14"><img src="https://kb3146706.pages.dev/post-images/1692973042575.png" alt="" loading="lazy"></figure>
+<p>切换效果为分割（自中央向左右展开），持续时间 0.75 秒。</p>
+<blockquote>
+<p>第三，词组与词组之间需要插入分隔符，形式是一个英文逗号。所以在输入提示词的时候，最好把输入法切换为英文输入状态。</p>
+</blockquote>
+<p>步骤大致同前，制作另外两行规则。</p>
+<p>Tip 左侧为两个空格，右侧为四个空格，格式是字体 HarmonyOS Sans，字号 55。目的是使其与上方的 Rule1/2/3 水平居中。</p>
+<figure data-type="image" tabindex="15"><img src="https://kb3146706.pages.dev/post-images/1692973047377.png" alt="" loading="lazy"></figure>
+<p>切换效果为平滑，持续时间 0.75 秒。</p>
+<p>将四行整体上移一些会更好。</p>
+<blockquote>
+<p>现在以这串提示词为例进行生成，结果可能很符合需求，也有可能是一张非常奇怪的东西。这是因为 AI 绘画具有随机性，每次生成的结果都会不太一样。如果想要有更高概率生成精准的图像，就需要细化和补充提示词了。比如补充女孩的衣服是什么颜色的，道路是宽是窄等等。</p>
+</blockquote>
+<p>提示词文本框的文本格式是居中对齐，字体 HarmonyOS Sans，字号 50。录制用的版本犯了一个大错误：字体是微软雅黑。</p>
+<p>凭视觉确定图片尺寸与各元素的位置。</p>
+<p>提示词文本框的动画为经修改的“位移淡入（自底部）”</p>
+<p>图片的动画为旁门左道 PPT 动画模板库里的“闪烁出现”。两组组内每张图片的延迟从 0 秒起依次增加 0.15 秒。</p>
+<figure data-type="image" tabindex="16"><img src="https://kb3146706.pages.dev/post-images/1692973053973.png" alt="" loading="lazy"></figure>
+<p>切换效果为平滑，持续时间 0.75 秒。</p>
+<blockquote>
+<p>学习了理论知识，接下来就是实践了。以下是利用 Stable Diffusion Webui v4 进行以文生图的完整过程。</p>
+</blockquote>
+<p>新建文本框，输入文本，文本格式是居中对齐，字体 HarmonyOS Sans，字号 150，倾斜。矢量化后将形状填充设置为无填充，形状轮廓设置为黑色 1 磅。将图形居中对齐。</p>
+<figure data-type="image" tabindex="17"><img src="https://kb3146706.pages.dev/post-images/1692973058390.png" alt="" loading="lazy"></figure>
+<p>切换效果为平滑，持续时间 0.75 秒。</p>
+<blockquote>
+<p>现在来做几道练习题巩固一下所学的知识吧！<br>
+第一题，只能输入想让图片具备的特性。这是正确的还是错误的？</p>
+</blockquote>
+<p>与规则页相似的处理。</p>
+<p>问号是个 emoji：❔</p>
+<p>这里有一个疏忽：没有考虑到练习题内容远比规则要复杂，导致没有设置好每一行文本的位置——与规则页相同——实际应该要更往上一些。</p>
+<p>问号的动画为“淡化”，持续时间 0.25 秒。</p>
+<p>实际应该用旁门左道 PPT 动画模板库里的“闪烁出现”的，这样更统一。</p>
+<figure data-type="image" tabindex="18"><img src="https://kb3146706.pages.dev/post-images/1692973064868.png" alt="" loading="lazy"></figure>
+<p>切换效果为平滑，持续时间 0.75 秒。</p>
+<blockquote>
+<p>很显然是错误的，我们也可以输入不想让图片具备的特性的反向提示词。<br>
+第二题，提示词可以使用中文输入？错误的！提示词必须用英文输入。</p>
+</blockquote>
+<p>将问号改为✘，填充色为标准色里的红色。</p>
+<figure data-type="image" tabindex="19"><img src="https://kb3146706.pages.dev/post-images/1692973069383.png" alt="" loading="lazy"></figure>
+<p>如法炮制第二题。</p>
+<figure data-type="image" tabindex="20"><img src="https://kb3146706.pages.dev/post-images/1692973073649.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="21"><img src="https://kb3146706.pages.dev/post-images/1692973077552.png" alt="" loading="lazy"></figure>
+<p>两页的切换动画均为平滑，持续时间 0.5 秒。</p>
+<blockquote>
+<p>第三题是单选题，两个提示词之间使用什么来分隔？</p>
+</blockquote>
+<p>选项标号与选项内容间是两个空格，选项内容与下一个选项的选项标号间是两个全角空格。</p>
+<figure data-type="image" tabindex="22"><img src="https://kb3146706.pages.dev/post-images/1692973163987.png" alt="" loading="lazy"></figure>
+<p>两页的切换动画均为平滑，持续时间 0.5 秒。</p>
+<p>有试过将选项标号加粗，但看起来并不合适。</p>
+<figure data-type="image" tabindex="23"><img src="https://kb3146706.pages.dev/post-images/1692973169344.png" alt="" loading="lazy"></figure>
+<blockquote>
+<p>选 C，使用英文的逗号“,”。<br>
+最后一题是多选题，以下哪些词语适合作为反向提示词？</p>
+</blockquote>
+<p>将错误选项的文本颜色改为“白色，背景 1，深色 25%”</p>
+<figure data-type="image" tabindex="24"><img src="https://kb3146706.pages.dev/post-images/1692973173463.png" alt="" loading="lazy"></figure>
+<p>两行选项间不设距离，即与上一行垂直贴边。两列选项间的距离凭视觉确定。为设置动画方便，将四个选项组合。</p>
+<figure data-type="image" tabindex="25"><img src="https://kb3146706.pages.dev/post-images/1692973177412.png" alt="" loading="lazy"></figure>
+<p>这里就能清楚地看出整体位置不合适了，万幸的是字幕无需为此迁就。</p>
+<p>两页的切换动画均为平滑，持续时间 0.5 秒。</p>
+<blockquote>
+<p>很明显，只有 C 是可以作为正向提示词的，所以这道题选择 A、B、D。</p>
+</blockquote>
+<p>错误选项改灰。</p>
+<figure data-type="image" tabindex="26"><img src="https://kb3146706.pages.dev/post-images/1692973182208.png" alt="" loading="lazy"></figure>
+<h2 id="片尾">片尾</h2>
+<p>问过老师，无需写清每人的工作，所以只有标题跟人名。</p>
+<p>动画一溜“位移淡入（自顶部）”下来，延迟从 0 秒起依次增加 0.05 秒。</p>
+<figure data-type="image" tabindex="27"><img src="https://kb3146706.pages.dev/post-images/1692973186248.png" alt="" loading="lazy"></figure>
+<h2 id="后续">后续</h2>
+<p>初版逐字稿有 1875 词，我与组员一起缩减了三个版本，最终是 1455 词。</p>
+<p>录制人像与人声花了一整个下午，连教带调累死累活。（我声音条件是真不行）</p>
+<p>剪辑除了大问题，原定的剪辑者放弃剪辑，无奈下最终找了出镜者来处理。特别感谢。</p>
+<p>背景音乐原定是在 PETO 的《FAILURES IN TIME 睿智时间》与《REAL GLOW 真实发光》这两张专辑里选择，最终选择了彭寒的《基本操作 - 一个人工智能的诞生 Original_Soundtrack》专辑里的《PlayGround（搭建你的神经网络）》。这种在 A 与 B 间选了 C 的情况真是时有发生呢。</p>
+<p>老师给的评语是“比较认真，相对完整”，第二名，同样荣获此评语的第一名小组是真人全身出镜+虚拟场景，甚至是第二次这么做，心服口服。后几名就各有各的问题了，这里按下不表。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Try Anytime】信息可视化原理与方法综合案例]]></title>
+        <id>https://kb3146706.pages.dev/post/try-anytime-xin-xi-ke-shi-hua-yuan-li-yu-fang-fa-zong-he-an-li/</id>
+        <link href="https://kb3146706.pages.dev/post/try-anytime-xin-xi-ke-shi-hua-yuan-li-yu-fang-fa-zong-he-an-li/">
+        </link>
+        <updated>2023-02-21T02:54:26.000Z</updated>
+        <content type="html"><![CDATA[<p>这门课叫“信息可视化原理与方法”，然后这个综合案例作业给出的三个选题，我感觉也就第二个跟信息可视化有点关系……</p>
+<figure data-type="image" tabindex="1"><img src="https://kb3146706.pages.dev/post-images/1676948181056.png" alt="" loading="lazy"></figure>
+<p>课上教的也有相当一部分不符合我对“信息可视化原理与方法”的认知，这太不酷了。</p>
+<p>最后拿了 96/100 分（班级最低分是 91 分），还行吧。</p>
+<figure data-type="image" tabindex="2"><img src="https://kb3146706.pages.dev/post-images/1676948186141.png" alt="" loading="lazy"></figure>
+<p>旁门左道 PPT 是真的牛，超级有用，钱花的非常值。</p>
+<h2 id="目标">目标</h2>
+<ul>
+<li>尽可能地完成要求。</li>
+</ul>
+<figure data-type="image" tabindex="3"><img src="https://kb3146706.pages.dev/post-images/1676948190247.png" alt="" loading="lazy"></figure>
+<p>（怎么可能用 Camtasia，肯定用剪映啊）</p>
+<ul>
+<li>展示内容清晰、简洁、规范。</li>
+</ul>
+<h2 id="片头">片头</h2>
+<p>复用 <a href="https://kb3146706.gitee.io/post/try-anytime-lesslesswo-xin-zhong-de-si-zheng-ke-greatergreater-wei-dian-ying/">【Try Anytime】《我心中的思政课》微电影</a> 的，结尾按新要求和实际改了改。</p>
+<figure data-type="image" tabindex="4"><img src="https://kb3146706.pages.dev/post-images/1676948196072.png" alt="" loading="lazy"></figure>
+<h2 id="内容">内容</h2>
+<h3 id="背景">背景</h3>
+<p>原本是跟片头一样的，后续调了一个淡蓝色。</p>
+<figure data-type="image" tabindex="5"><img src="https://kb3146706.pages.dev/post-images/1676948200452.png" alt="" loading="lazy"></figure>
+<h3 id="标题">标题</h3>
+<p>中文字体（还）是字魂47号-三分行楷，逐字调整字号与位置，加了文字阴影</p>
+<figure data-type="image" tabindex="6"><img src="https://kb3146706.pages.dev/post-images/1676948210079.png" alt="" loading="lazy"></figure>
+<p>还可以更好，比如“抗”和“疫”的间距就不是很合适。</p>
+<p>下面加了机翻英文来填充画面，字体 HarmonyOS Sans。</p>
+<figure data-type="image" tabindex="7"><img src="https://kb3146706.pages.dev/post-images/1676948213675.png" alt="" loading="lazy"></figure>
+<p>动画方面，都是添加旁门左道 PPT 的 PPT 动画模板库里的“形状缩小进入”。</p>
+<p>汉字持续一秒，两个汉字间延迟 0.1 秒。字母持续 0.25 秒，延续汉字的延迟。</p>
+<figure data-type="image" tabindex="8"><img src="https://kb3146706.pages.dev/post-images/1676948217142.png" alt="" loading="lazy"></figure>
+<h3 id="目录">目录</h3>
+<p>非常简单的 1、2、3、4。</p>
+<p>数字的字体是 Bebas Neue（Windows 自带）加斜，字号 120，右对齐。由于使用 SIL OFL，所以几乎所有的“使用”情况都不用担心版权问题。</p>
+<p>中文的字体是 HarmonyOS Sans 加粗，字号 50，左对齐。</p>
+<p>各种位置及距离均是专门确认的，确保整体观感舒适。</p>
+<figure data-type="image" tabindex="9"><img src="https://kb3146706.pages.dev/post-images/1676948221251.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="10"><img src="https://kb3146706.pages.dev/post-images/1676948224886.png" alt="" loading="lazy"></figure>
+<p>虽然把它们矢量化后能更方便地确认，但为了以后还能用就没有。</p>
+<p>动画方面，都是 PPT 动画模板库里的“位移淡入”，数字部分自左侧，中文自右侧。</p>
+<p>实质是两个动画的组合：持续时间 0.5 秒的淡化进入与持续时间 1 秒的直线动作路径。</p>
+<p>自第二行其每行延时 0.25 秒。</p>
+<figure data-type="image" tabindex="11"><img src="https://kb3146706.pages.dev/post-images/1676948231235.png" alt="" loading="lazy"></figure>
+<h3 id="第一部分">第一部分</h3>
+<p>从目录页将标题复制过来，建成组合，确定好位置（水平 1 厘米，垂直 0.5 厘米）。</p>
+<p>确定好内容的横向边界。全幻灯片长 40.64 厘米，经多次尝试后确定其为 38 厘米。</p>
+<p>从旁门左道 PPT 的某个模板里弄一个适合填充文本的圆角矩形过来，作为一切文本的底。</p>
+<figure data-type="image" tabindex="12"><img src="https://kb3146706.pages.dev/post-images/1676948236546.png" alt="" loading="lazy"></figure>
+<p>凭视觉确定好第一行的位置和圆角矩形的高度。</p>
+<figure data-type="image" tabindex="13"><img src="https://kb3146706.pages.dev/post-images/1676948242445.png" alt="" loading="lazy"></figure>
+<p>新建文本框，长度与圆角矩形相同，与圆角矩形居中对齐，字体 HarmonyOS Sans，字号 48，居中对齐。</p>
+<p>结合文本，提炼关键语句词。</p>
+<p>向文本框内填入关键语句，与圆角矩形建成组合。（千万不要用圆角矩形内自带的输入）</p>
+<figure data-type="image" tabindex="14"><img src="https://kb3146706.pages.dev/post-images/1676948249372.png" alt="" loading="lazy"></figure>
+<p>内容块与内容块之间的距离需大于内容块内部的行间距。内容块内部的行间距凭视觉确定，确定后确定内容块与内容块之间的距离为 1.2 厘米，</p>
+<figure data-type="image" tabindex="15"><img src="https://kb3146706.pages.dev/post-images/1676948252649.png" alt="" loading="lazy"></figure>
+<p>根据填充文本内容的多少确定对应圆角矩形的宽度。根据各个文本内容确定每行放置的个数。</p>
+<p>利用横向分布工具排版。</p>
+<figure data-type="image" tabindex="16"><img src="https://kb3146706.pages.dev/post-images/1676948257537.png" alt="" loading="lazy"></figure>
+<p>特殊内容需要灵活变通，内容块可以不止占一行。</p>
+<figure data-type="image" tabindex="17"><img src="https://kb3146706.pages.dev/post-images/1676948262137.png" alt="" loading="lazy"></figure>
+<p>真实原因是幻灯片剩余的高度不够两行。</p>
+<p>这两块的宽度可以更优化。</p>
+<p>排版完成。</p>
+<figure data-type="image" tabindex="18"><img src="https://kb3146706.pages.dev/post-images/1676948266606.png" alt="" loading="lazy"></figure>
+<p>动画方面，都是动画模板库里的“形状缩小进入”。</p>
+<p>第二部分因为大部分是短词，所以持续时间为 0.75 秒，其余为 1 秒。开始时间均为“单击时”。</p>
+<figure data-type="image" tabindex="19"><img src="https://kb3146706.pages.dev/post-images/1676948270940.png" alt="" loading="lazy"></figure>
+<h3 id="第二部分">第二部分</h3>
+<p>从旁门左道 PPT 的某个模板里弄一个适合的过来。改改尺寸与文本格式，设定好位置与间距即可。</p>
+<figure data-type="image" tabindex="20"><img src="https://kb3146706.pages.dev/post-images/1676948276237.png" alt="" loading="lazy"></figure>
+<p>修改尺寸后二者并没有很好的结合，简单修改位置即可解决，但当时没做。</p>
+<figure data-type="image" tabindex="21"><img src="https://kb3146706.pages.dev/post-images/1676948285649.png" alt="" loading="lazy"></figure>
+<p>动画方面，要点动画为动画模板库里的“形状缩小进入”，持续时间 0.5 秒。</p>
+<p>说明动画为“淡化”（0.5 秒）与“直线”（1 秒）组合。</p>
+<figure data-type="image" tabindex="22"><img src="https://kb3146706.pages.dev/post-images/1676948290542.png" alt="" loading="lazy"></figure>
+<h3 id="第三部分">第三部分</h3>
+<p>总体与第一部分类似。</p>
+<p>结合文本，提炼关键语句。</p>
+<p>需要特别注意的是第二句，需根据逻辑关系将其拆成两行。</p>
+<figure data-type="image" tabindex="23"><img src="https://kb3146706.pages.dev/post-images/1676948296621.png" alt="" loading="lazy"></figure>
+<h3 id="第四部分">第四部分</h3>
+<p>重点是呈现数据，所以排版很关键。</p>
+<p>凭感觉确定数据类型与部分名的横向距离。</p>
+<figure data-type="image" tabindex="24"><img src="https://kb3146706.pages.dev/post-images/1676948300691.png" alt="" loading="lazy"></figure>
+<p>用两个在第一部分第一行做好的圆角矩形，根据填入的文字量决定其宽度。</p>
+<p>在下层加一个矩形，颜色从背景里往深了调，其宽度凭感觉确定。</p>
+<p>矩形上层放数据值，字体是 HarmonyOS Sans 加粗，字号 125，居中对齐。横向与矩形居中对齐（水平居中），其纵向位置凭感觉确定。</p>
+<figure data-type="image" tabindex="25"><img src="https://kb3146706.pages.dev/post-images/1676948304707.png" alt="" loading="lazy"></figure>
+<p>动画方面，两个圆角矩形为动画模板库里的“形状缩小进入”，持续时间 0.5 秒。</p>
+<p>矩形为“淡化”（0.5 秒）与“直线”（0.75 秒）组合。</p>
+<p>数据值为“淡化”，持续时间 0.25 秒。</p>
+<figure data-type="image" tabindex="26"><img src="https://kb3146706.pages.dev/post-images/1676948310110.png" alt="" loading="lazy"></figure>
+<p>第二类数据页同理。</p>
+<figure data-type="image" tabindex="27"><img src="https://kb3146706.pages.dev/post-images/1676948314749.png" alt="" loading="lazy"></figure>
+<h3 id="结尾">结尾</h3>
+<p>就是去除所有动画的“标题”页。</p>
+<h3 id="切换">切换</h3>
+<p>各部分间插入过渡页。</p>
+<figure data-type="image" tabindex="28"><img src="https://kb3146706.pages.dev/post-images/1676948319295.png" alt="" loading="lazy"></figure>
+<p>过渡页切换效果均为“淡入/淡出”，持续时间 0.5 秒，自动换片时间 0 秒。</p>
+<p>其后的内容为“淡入/淡出”，持续时间 0.25 秒。</p>
+<p>唯一的例外是第三部分的两页内容，为“平滑”，持续时间 1 秒。</p>
+<h2 id="片尾">片尾</h2>
+<p>（不由我做）</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Done.】三维设计实训答辩]]></title>
+        <id>https://kb3146706.pages.dev/post/done-san-wei-she-ji-shi-xun-da-bian/</id>
+        <link href="https://kb3146706.pages.dev/post/done-san-wei-she-ji-shi-xun-da-bian/">
+        </link>
+        <updated>2022-07-07T08:02:37.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://kb3146706.pages.dev/post-images/1657181067026.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1657181072319.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1657181077867.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1657181081795.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1657181088471.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1657181094045.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1657181098065.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1657181103038.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1657181109358.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1657181116617.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1657181121467.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Done.】马克思主义基本原理概论实践作业之专题授课]]></title>
+        <id>https://kb3146706.pages.dev/post/done-ma-ke-si-zhu-yi-ji-ben-yuan-li-gai-lun-shi-jian-zuo-ye-zhi-zhuan-ti-shou-ke/</id>
+        <link href="https://kb3146706.pages.dev/post/done-ma-ke-si-zhu-yi-ji-ben-yuan-li-gai-lun-shi-jian-zuo-ye-zhi-zhuan-ti-shou-ke/">
+        </link>
+        <updated>2021-11-29T12:06:01.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://kb3146706.pages.dev/post-images/1638343737712.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1638343746500.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1638343752710.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1638343763599.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1638343825502.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1638343829079.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1638343832793.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1638343835811.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1638343839739.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1638343842701.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1638343855286.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1638343860054.png" alt="" loading="lazy"><br>
+<img src="https://kb3146706.pages.dev/post-images/1638343864048.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Try Anytime】2021 学院迎新宣传板废案]]></title>
+        <id>https://kb3146706.pages.dev/post/try-anytime-2021-xue-yuan-ying-xin-xuan-chuan-ban-fei-an/</id>
+        <link href="https://kb3146706.pages.dev/post/try-anytime-2021-xue-yuan-ying-xin-xuan-chuan-ban-fei-an/">
+        </link>
+        <updated>2021-10-13T04:34:42.000Z</updated>
+        <content type="html"><![CDATA[<p>未完成目标</p>
+<h2 id="目标">目标</h2>
+<p><strong>让甲方的甲方满意</strong><s>（甲方是自己人）</s></p>
+<h2 id="要求与限制">要求与限制</h2>
+<ul>
+<li>（让甲方的甲方觉得）美观</li>
+<li>（让甲方的甲方觉得）清晰</li>
+<li>（让甲方的甲方觉得）大方</li>
+<li>风格统一</li>
+<li>预留张贴空白</li>
+<li>文字内容不可随意修改</li>
+<li>DPI 正确</li>
+</ul>
+<h2 id="模板">模板</h2>
+<h3 id="幻灯片大小">幻灯片大小</h3>
+<p>45 cm x 90 cm</p>
+<h3 id="颜色">颜色</h3>
+<p>综合校徽与院徽的颜色，我先确定了要蓝色系</p>
+<p>然后确定了标题等框架部分的颜色：PowerPoint 默认标准色中的深蓝（26,45,78）</p>
+<figure data-type="image" tabindex="1"><img src="https://kb3146706.pages.dev/post-images/1636774286884.png" alt="" loading="lazy"></figure>
+<p>最后确定了背景：颜色选择深蓝后在颜色-其他颜色-自定义中将指针往上拖，得到所需的浅蓝色（237,241,249）</p>
+<figure data-type="image" tabindex="2"><img src="https://kb3146706.pages.dev/post-images/1636774433222.png" alt="" loading="lazy"></figure>
+<p>再垫上从 2019 年的迎新宣传板上弄的纹理就完成了</p>
+<figure data-type="image" tabindex="3"><img src="https://kb3146706.pages.dev/post-images/1636774437779.png" alt="" loading="lazy"></figure>
+<p>（应该用 Ps 之类的合成一张背景的，当时时间赶😑）</p>
+<p>正文颜色就纯黑色啦</p>
+<h3 id="字体">字体</h3>
+<p>学院名：HarmonyOS Sans</p>
+<p>展板标题：本墨字语（初始方案） / 霞鹜文楷 Bold（最终方案）</p>
+<p>正文：HarmonyOS Sans，根据内容选择 Bold 或 Regular 字重</p>
+<h3 id="版式">版式</h3>
+<p>做这种活时我有一个个人习惯：将幻灯片的缩略图调整至正好能完整显示整页的大小，幻灯片显示比例调整至尽可能填满</p>
+<figure data-type="image" tabindex="4"><img src="https://kb3146706.pages.dev/post-images/1636774443597.png" alt="" loading="lazy"></figure>
+<h4 id="校院信息">校院信息</h4>
+<p>需要出现：校徽、院徽、院中文名、院英文名</p>
+<p>校徽：距左上角的水平跟垂直距离必须相等，不断调整本身大小，直至和谐不突兀。</p>
+<p>院徽：与校徽等大，调整好与校徽的距离</p>
+<p>院中英文名：字重 Regular，英文名与中文名尽量等宽（不是文本框，是字本身）</p>
+<p>院徽与中英文名间添加一条竖线做分隔，调整好粗细</p>
+<p>完成！</p>
+<figure data-type="image" tabindex="5"><img src="https://kb3146706.pages.dev/post-images/1636774448581.png" alt="" loading="lazy"></figure>
+<h4 id="标题">标题</h4>
+<p>字数必须一致</p>
+<figure data-type="image" tabindex="6"><img src="https://kb3146706.pages.dev/post-images/1636774453683.png" alt="" loading="lazy"></figure>
+<p>创建文本框，居中对齐，设置好文字格式（霞鹜文楷，加粗），调整好字号</p>
+<figure data-type="image" tabindex="7"><img src="https://kb3146706.pages.dev/post-images/1636774457771.png" alt="" loading="lazy"></figure>
+<p>“2021”需要单独说明</p>
+<p>它由深蓝色（26,45,78）的圆角矩形+纯白色（255,255,255）的数字构成</p>
+<p>不能根据文本框的边缘线来判断 2021 是否位于圆角矩形的中心，必须根据眼睛看来把握</p>
+<figure data-type="image" tabindex="8"><img src="https://kb3146706.pages.dev/post-images/1636774462783.png" alt="" loading="lazy"></figure>
+<p>“2021”与标题的相对位置，整体的居中也是如此，只能相信眼睛</p>
+<figure data-type="image" tabindex="9"><img src="https://kb3146706.pages.dev/post-images/1636774468121.png" alt="" loading="lazy"></figure>
+<h2 id="内容">内容</h2>
+<h3 id="科技创新板块">“科技创新”板块</h3>
+<h4 id="内容-2">内容</h4>
+<p>分为两个板块：“考研先锋”与“奋斗时光”</p>
+<p><strong>考研先锋</strong></p>
+<p>需要出现六张个人照与各自的班级、姓名和院校信息</p>
+<p><strong>奋斗时光</strong></p>
+<p>需要出现六张照片与各一句话描述</p>
+<h4 id="版式-2">版式</h4>
+<p>肯定是一上一下啦</p>
+<p>板块外围用矩形围起来，板块标题嵌在上面</p>
+<p>颜色都是深蓝色</p>
+<p>板块标题的字体选用方正字迹-典雅楷体，给文本框来一个浅蓝色填充，这样该部分的矩形边就会被“完美”盖住</p>
+<p>之所以加双引号是因为填充也把纹理盖住了😂</p>
+<figure data-type="image" tabindex="10"><img src="https://kb3146706.pages.dev/post-images/1636774475788.png" alt="" loading="lazy"></figure>
+<p>更好的实现方式是在文字与矩形边框中间夹一条浅蓝色矩形</p>
+<p><strong>考研先锋</strong></p>
+<p>分为两列，一列三位；照片在左，信息在右</p>
+<p>图片加上小圆角</p>
+<p>第一行信息与图片顶对齐</p>
+<figure data-type="image" tabindex="11"><img src="https://kb3146706.pages.dev/post-images/1636774481380.png" alt="" loading="lazy"></figure>
+<p>更好的实现方式是每个项目分两行，项目名粗体，第一行信息与图片顶对齐，第三行信息与图片底对齐，各项目纵向均匀分布</p>
+<figure data-type="image" tabindex="12"><img src="https://kb3146706.pages.dev/post-images/1636774486533.png" alt="" loading="lazy"></figure>
+<p><strong>奋斗时光</strong></p>
+<p>分为两列，一列三张；照片在上，信息在下</p>
+<p>图片加上小圆角</p>
+<figure data-type="image" tabindex="13"><img src="https://kb3146706.pages.dev/post-images/1636774493847.png" alt="" loading="lazy"></figure>
+<p>需要注意的是字母与汉字间应空一格（严格来说应该是空“全宽的四分之一”，这里图省事就用空格代替了），这里没有空</p>
+<p>（必须要吐槽一下 PowerPoint 的文字排版，要啥没啥）</p>
+<h4 id="图片处理">图片处理</h4>
+<p><strong>考研先锋</strong></p>
+<p>照片的比例乱七八糟，需要统一</p>
+<figure data-type="image" tabindex="14"><img src="https://kb3146706.pages.dev/post-images/1636774499587.png" alt="" loading="lazy"></figure>
+<p>按 3:4 裁剪</p>
+<figure data-type="image" tabindex="15"><img src="https://kb3146706.pages.dev/post-images/1636774507361.png" alt="" loading="lazy"></figure>
+<p><strong>奋斗时光</strong></p>
+<p>同上，按 16:9 裁剪</p>
+<figure data-type="image" tabindex="16"><img src="https://kb3146706.pages.dev/post-images/1636774513070.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="17"><img src="https://kb3146706.pages.dev/post-images/1636774518285.png" alt="" loading="lazy"></figure>
+<h4 id="填充内容">填充内容</h4>
+<p>完成</p>
+<figure data-type="image" tabindex="18"><img src="https://kb3146706.pages.dev/post-images/1636774525241.png" alt="" loading="lazy"></figure>
+<h3 id="信院风采板块">“信院风采”板块</h3>
+<h4 id="版式-3">版式</h4>
+<p>分为两列，一列五张；照片在上，信息在下</p>
+<p>图片加上小圆角</p>
+<figure data-type="image" tabindex="19"><img src="https://kb3146706.pages.dev/post-images/1636774531233.png" alt="" loading="lazy"></figure>
+<h4 id="图片处理-2">图片处理</h4>
+<p>同上，按 16:9 裁剪</p>
+<figure data-type="image" tabindex="20"><img src="https://kb3146706.pages.dev/post-images/1636774540144.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="21"><img src="https://kb3146706.pages.dev/post-images/1636774545642.png" alt="" loading="lazy"></figure>
+<h4 id="内容填充">内容填充</h4>
+<p>完成</p>
+<figure data-type="image" tabindex="22"><img src="https://kb3146706.pages.dev/post-images/1636774550377.png" alt="" loading="lazy"></figure>
+<p>PowerPoint 的对齐功能真的很好用！</p>
+<figure data-type="image" tabindex="23"><img src="https://kb3146706.pages.dev/post-images/1636774555640.png" alt="" loading="lazy"></figure>
+<h3 id="学院简介板块">“学院简介”板块</h3>
+<p>我不知道为什么不叫“信院简介”</p>
+<h4 id="装饰">装饰</h4>
+<p>样子是从网络上找的，用深蓝色直线和 PowerPoint 的对齐功能复刻的</p>
+<figure data-type="image" tabindex="24"><img src="https://kb3146706.pages.dev/post-images/1636774669887.png" alt="" loading="lazy"></figure>
+<p>制作好一角后用组合与旋转功能即可弄出其余三角，再用对齐功能摆放</p>
+<figure data-type="image" tabindex="25"><img src="https://kb3146706.pages.dev/post-images/1636774700475.png" alt="" loading="lazy"></figure>
+<h4 id="文字">文字</h4>
+<p>给到我的原始文档没有存，反正是相当混乱~~（存了也不会放出来）~~</p>
+<p>主要是错别字与空格问题（段首没有缩进很正常）</p>
+<p><em>字母与汉字、数字与汉字间需要空一格（严格来说应该是空“全宽的四分之一”，这里图省事就用空格代替了），而字母、数字与标点则不需要</em></p>
+<p>费了好一番功夫改好了😑</p>
+<p>段首缩进万万不可用敲（半角）空格的方式糊弄，这里用的是两个“透明”文字来实现</p>
+<p>纯色背景还可以，但像这里非纯色的就会穿帮</p>
+<figure data-type="image" tabindex="26"><img src="https://kb3146706.pages.dev/post-images/1636774708337.png" alt="" loading="lazy"></figure>
+<p>更好的实现方式是敲全角空格</p>
+<figure data-type="image" tabindex="27"><img src="https://kb3146706.pages.dev/post-images/1636774714913.png" alt="" loading="lazy"></figure>
+<p>文本框居中，调一下字号就行</p>
+<figure data-type="image" tabindex="28"><img src="https://kb3146706.pages.dev/post-images/1636774720333.png" alt="" loading="lazy"></figure>
+<h3 id="专业简介板块">“专业简介”板块</h3>
+<h4 id="装饰-2">装饰</h4>
+<p>同上</p>
+<h4 id="文字-2">文字</h4>
+<p>同上</p>
+<p>（真是服了学院，没有校对吗？）</p>
+<h4 id="版式-4">版式</h4>
+<p>大致分为”专业类别“”专业名与关键信息“和”专业介绍“这三个部分</p>
+<p><strong>专业类别</strong></p>
+<p>文字字体选用方正宋黑，加粗，居中，字间距“很松”</p>
+<p>下垫圆角矩形，视觉居中，颜色用与确定浅蓝色（237,241,249）一样的方法确定（202,215,238）</p>
+<figure data-type="image" tabindex="29"><img src="https://kb3146706.pages.dev/post-images/1636774729065.png" alt="" loading="lazy"></figure>
+<p>这里倒是真的可以用敲空格的方式而非调整字间距空开各个字，这样就不会出现右边比左边空得大的问题</p>
+<figure data-type="image" tabindex="30"><img src="https://kb3146706.pages.dev/post-images/1636774734899.png" alt="" loading="lazy"></figure>
+<p><strong>专业名与关键信息</strong></p>
+<p>专业名字体加粗，居左，字号与“专业类别”的相同</p>
+<p>关键信息的字号适当缩小且不加粗，各信息用敲空格间隔</p>
+<p>下置横线分隔，颜色与“专业类别”垫的圆角矩形相同</p>
+<figure data-type="image" tabindex="31"><img src="https://kb3146706.pages.dev/post-images/1636774845357.png" alt="" loading="lazy"></figure>
+<p><strong>专业介绍</strong></p>
+<p>该缩进就缩进，改改错别字，加加空格（严格来说应该是空“全宽的四分之一”，这里图省事就用空格代替了）就好</p>
+<p>需要注意的是各元素之间没有简析，完全贴边</p>
+<p>可用 OneKey 10 插件的“对齐递进”功能快捷操作</p>
+<figure data-type="image" tabindex="32"><img src="https://kb3146706.pages.dev/post-images/1636774852099.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="33"><img src="https://kb3146706.pages.dev/post-images/1636774858156.png" alt="" loading="lazy"></figure>
+<h4 id="内容填充-2">内容填充</h4>
+<p>完成</p>
+<figure data-type="image" tabindex="34"><img src="https://kb3146706.pages.dev/post-images/1636774863921.png" alt="" loading="lazy"></figure>
+<h3 id="结束">结束</h3>
+<p>交上去后被甲方的甲方批不够大气，废</p>
+<p>最终是甲方用 2019 年的改出一版，采用</p>
+<p><s>甚至上面的单词拼写错误也依旧存在</s></p>
+]]></content>
+    </entry>
+</feed>
